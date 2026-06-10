@@ -2,16 +2,26 @@
 
 Desafio técnico desenvolvido para a vaga de Programador da Konor.
 
+## 🔗 Acesse o projeto online
+
+**[https://crehub-lemon.vercel.app/](https://crehub-lemon.vercel.app/)**
+
+---
+
+## Sobre o projeto
+
+Aplicação que guia empresas por 6 perguntas estratégicas e gera um diagnóstico personalizado de marketing, mostrando como o UGC pode ajudar a empresa a crescer — direcionando ao final para a plataforma CreHub.app.
+
 ## Funcionalidades
 
-- Diagnóstico estratégico personalizado por segmento e perfil de empresa
+- 6 perguntas estratégicas sobre o perfil da empresa
 - Score de oportunidade UGC (0–100) com anel de progresso animado
 - Insights dinâmicos gerados a partir das respostas
 - Plano de ação de 30 dias contextualizado
+- CTA direcionando para a CreHub ao final
 - UI dark com design system consistente (Syne + Inter)
 - Animações de transição entre perguntas
 - Layout responsivo mobile-first
-- Acessibilidade: `prefers-reduced-motion`, foco visível, semântica HTML
 
 ## Tecnologias
 
@@ -35,8 +45,8 @@ npm run dev
 
 ## Melhorias Futuras
 
-- Integração com Claude API para insights gerados por IA
+- Integração com IA para insights ainda mais personalizados
 - Dashboard administrativo com listagem de diagnósticos
 - Persistência em banco de dados (Supabase/Firebase)
 - Compartilhamento do resultado via link único
-- Integração com a plataforma CreHub para onboarding direto
+- Integração direta com a plataforma CreHub para onboarding
